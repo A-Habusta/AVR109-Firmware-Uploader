@@ -1,0 +1,25 @@
+2023-02-11 (Adrián Habušta):
+	- Add back start/stop timer functions
+
+2023-02-10 (Adrián Habušta):
+	- Choose MIT license
+	- Remove examples and Arduino version from the library
+	- Rename folder to fit platformio library manager
+	- Change defines to work with ATmega128 timers
+	- Remove start/stop timer functions
+
+2018-11-21:
+	- Licensing change: was GPL-3.0 only, now GPL-3.0 or MIT
+
+2013-09-01:
+	- Many improvements
+	- Support for selecting which timer to use
+	- Doxygen
+
+2013-02-11:
+	- Arduino example was using normal millis(), changed to millis_get()
+	- Added #defines to Arduino example for setting LED pins
+	- Changed led_blink() to main() in non-Arduino example
+
+2013-02-10:
+	- Initial release
